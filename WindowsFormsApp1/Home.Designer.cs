@@ -37,6 +37,8 @@ namespace WindowsFormsApp1
             this.form7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.form8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.form9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.disconnectedArchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.disconnectedArchEmpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +51,9 @@ namespace WindowsFormsApp1
             this.form6ToolStripMenuItem,
             this.form7ToolStripMenuItem,
             this.form8ToolStripMenuItem,
-            this.form9ToolStripMenuItem});
+            this.form9ToolStripMenuItem,
+            this.disconnectedArchToolStripMenuItem,
+            this.disconnectedArchEmpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -73,15 +77,15 @@ namespace WindowsFormsApp1
             // form5ToolStripMenuItem
             // 
             this.form5ToolStripMenuItem.Name = "form5ToolStripMenuItem";
-            this.form5ToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.form5ToolStripMenuItem.Text = "Form5";
+            this.form5ToolStripMenuItem.Size = new System.Drawing.Size(146, 20);
+            this.form5ToolStripMenuItem.Text = "Disconnected Arch Stud";
             this.form5ToolStripMenuItem.Click += new System.EventHandler(this.form5ToolStripMenuItem_Click);
             // 
             // form6ToolStripMenuItem
             // 
             this.form6ToolStripMenuItem.Name = "form6ToolStripMenuItem";
-            this.form6ToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.form6ToolStripMenuItem.Text = "Form6";
+            this.form6ToolStripMenuItem.Size = new System.Drawing.Size(144, 20);
+            this.form6ToolStripMenuItem.Text = "Disccconected Arc Stud";
             this.form6ToolStripMenuItem.Click += new System.EventHandler(this.form6ToolStripMenuItem_Click);
             // 
             // form7ToolStripMenuItem
@@ -104,6 +108,20 @@ namespace WindowsFormsApp1
             this.form9ToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.form9ToolStripMenuItem.Text = "Book Library";
             this.form9ToolStripMenuItem.Click += new System.EventHandler(this.form9ToolStripMenuItem_Click);
+            // 
+            // disconnectedArchToolStripMenuItem
+            // 
+            this.disconnectedArchToolStripMenuItem.Name = "disconnectedArchToolStripMenuItem";
+            this.disconnectedArchToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
+            this.disconnectedArchToolStripMenuItem.Text = "Disconnected Arch";
+            this.disconnectedArchToolStripMenuItem.Click += new System.EventHandler(this.disconnectedArchToolStripMenuItem_Click);
+            // 
+            // disconnectedArchEmpToolStripMenuItem
+            // 
+            this.disconnectedArchEmpToolStripMenuItem.Name = "disconnectedArchEmpToolStripMenuItem";
+            this.disconnectedArchEmpToolStripMenuItem.Size = new System.Drawing.Size(146, 20);
+            this.disconnectedArchEmpToolStripMenuItem.Text = "Disconnected Arch Emp";
+            this.disconnectedArchEmpToolStripMenuItem.Click += new System.EventHandler(this.disconnectedArchEmpToolStripMenuItem_Click);
             // 
             // Home
             // 
@@ -133,5 +151,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ToolStripMenuItem form7ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem form8ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem form9ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem disconnectedArchToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem disconnectedArchEmpToolStripMenuItem;
     }
 }

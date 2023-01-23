@@ -38,14 +38,14 @@ namespace WindowsFormsApp1
 
         private void form5ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form5 f5 = new Form5();
+            Form10 f5 = new Form10();
             f5.MdiParent = this;
             f5.Show();
         }
 
         private void form6ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form6 f6 = new Form6();
+            Form9 f6 = new Form9();
             f6.MdiParent = this;
             f6.Show();
         }
@@ -69,6 +69,20 @@ namespace WindowsFormsApp1
             BookCRUD f9 = new BookCRUD();
             f9.MdiParent = this;
             f9.Show();
+        }
+
+        private void disconnectedArchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form7 f10 = new Form7();
+            f10.MdiParent = this;
+            f10.Show();
+        }
+
+        private void disconnectedArchEmpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form8 f11 = new Form8();
+            f11.MdiParent = this;
+            f11.Show();
         }
     }
 }
